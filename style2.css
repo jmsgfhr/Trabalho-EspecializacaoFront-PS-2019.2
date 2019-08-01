@@ -149,26 +149,20 @@
 .div-inside-two .div-two {
     display: flex;
     flex-direction: row;
+    flex-flow: column wrap;
     width: 100%;
     height: 75%;
 }
 
-.div-inside-two .div-two .div-left{
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    height: 100%;
-}
-
 .div-inside-two .div-two .div-one-inside-two {
     background-color: silver;
-    width: 100%;
+    width: 50%;
     height: 50%;
 }
 
 .div-inside-two .div-two .div-two-inside-two {
     background-color: fuchsia;
-    width: 100%;
+    width: 50%;
     height: 50%;
 }
 
